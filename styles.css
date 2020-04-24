@@ -1,0 +1,59 @@
+/* VARIABLES */
+
+:root {
+    --text-color:#fff;
+    --bg-color: #041F3F;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+ body{
+   
+} 
+.form-wrapper{
+    max-width: 450px;
+    background-color: var(--bg-color);
+    background-image: url(img/windy-g.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin: 2% auto;
+    color: var(--text-color);
+}
+
+form .input-control{
+    margin: 8% auto;
+    width: 80%;
+    border: none;
+    padding: 3px;
+    background: transparent;
+    border-bottom: 2px solid var(--text-color);
+    color: var(--text-color);
+}
+form ::placeholder{
+    color: var(--text-color);
+}
+form , .cityname, .weather-icon , .weather-condition , .weather-deg , .day{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    margin: 20px auto;
+}
+
+.weather-deg {
+    cursor: pointer;
+}
+.wether-icon{
+    background-color: var(--text-color);
+    display: flex;
+    margin: 10% auto;
+    width: 23%;
+    border-radius: 50%;
+}
+.wether-icon img{
+    text-align: center;
+    justify-content: center;
+}
